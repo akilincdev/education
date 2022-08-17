@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   String textCount(){
     if (_counter >15) {
-      return 'TOO MUCH ALERT!!!';
+      return 'TOO MUCH ALERT!!! PLEASE DO NOT TOUCH AGAIN';
     } else {
       return 'You have pushed the button this many times:';
     }
